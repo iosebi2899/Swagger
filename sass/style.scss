@@ -267,7 +267,7 @@ main{
             box-sizing: border-box;
             text-align: center;
             position: relative;
-            padding:50px 33px;
+            padding:50px 10px;
             img{
                 height: 70px;
                 width: 100%;
@@ -284,7 +284,7 @@ main{
             h1{
                 font-family: 'BPG Nino Mkhedruli Book';
                 font-size:18px;
-                padding: 58px 0 18px 0;
+                padding-top: 58px;
                 line-height: 25.6px;
                 color: white;
                 @media (max-width:1000px){
