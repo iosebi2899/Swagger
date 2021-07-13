@@ -181,7 +181,7 @@ main{
         margin-left: -2px;
         img{
             height: 100vh;
-            width: 100%;
+            width: 100.5%;
             object-fit: cover;
             object-position: bottom;
             @media (max-width:800px){
@@ -263,7 +263,7 @@ main{
         article{
             width: $article-width3;
             margin-right: 19px;
-            border: 1px solid #B2B2B2;
+            border: 1px solid #FE394F;
             box-sizing: border-box;
             text-align: center;
             position: relative;
@@ -331,6 +331,7 @@ main{
     line-height: 25px;
     position: relative;
     background-image:url("../img/bg.jpg");
+    background-position: center;
     color: white;
     @include header;
     @media (max-width:1000px){
@@ -349,7 +350,7 @@ main{
     }
 }
 .imeno{
-    background-position: bottom;
+    background-position: inherit;
 }
 
 #instagram{
@@ -401,7 +402,7 @@ main{
             .break-line{
                 width: 90px;
                 height: 2px;
-                background-color: white;
+                background-color: #FE394F;
                 margin: 15px 0px 60px 0px;
             }
             h2{

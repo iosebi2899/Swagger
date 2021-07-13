@@ -142,7 +142,7 @@ main .main-banner {
   margin-left: -2px; }
   main .main-banner img {
     height: 100vh;
-    width: 100%;
+    width: 100.5%;
     object-fit: cover;
     object-position: bottom; }
     @media (max-width: 800px) {
@@ -198,8 +198,8 @@ main .main-banner {
   .first .header {
     text-align: center;
     margin-bottom: 14px;
-    font-size: 18px;
-    font-family: 'BPG Glaho WEB Caps'; }
+    font-size: 24px;
+    font-family: 'BPG Nino Mkhedruli Book'; }
   .first .break-line {
     position: absolute;
     left: 50%;
@@ -221,7 +221,7 @@ main .main-banner {
     .first .article-container article {
       width: 22%;
       margin-right: 19px;
-      border: 1px solid #B2B2B2;
+      border: 1px solid #FE394F;
       box-sizing: border-box;
       text-align: center;
       position: relative;
@@ -276,12 +276,13 @@ main .main-banner {
   line-height: 25px;
   position: relative;
   background-image: url("../img/bg.jpg");
+  background-position: center;
   color: white; }
   .second .header {
     text-align: center;
     margin-bottom: 14px;
-    font-size: 18px;
-    font-family: 'BPG Glaho WEB Caps'; }
+    font-size: 24px;
+    font-family: 'BPG Nino Mkhedruli Book'; }
   .second .break-line {
     position: absolute;
     left: 50%;
@@ -304,7 +305,7 @@ main .main-banner {
         font-size: 16px; } }
 
 .imeno {
-  background-position: bottom; }
+  background-position: inherit; }
 
 #instagram {
   width: 24px;
@@ -351,7 +352,7 @@ main .main-banner {
       .third article .right-text .break-line {
         width: 90px;
         height: 2px;
-        background-color: white;
+        background-color: #FE394F;
         margin: 15px 0px 60px 0px; }
       .third article .right-text h2 {
         width: 100%;
@@ -399,8 +400,8 @@ footer .fourth {
   footer .fourth .header {
     text-align: center;
     margin-bottom: 14px;
-    font-size: 18px;
-    font-family: 'BPG Glaho WEB Caps'; }
+    font-size: 24px;
+    font-family: 'BPG Nino Mkhedruli Book'; }
   footer .fourth .break-line {
     position: absolute;
     left: 50%;
