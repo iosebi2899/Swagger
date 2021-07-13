@@ -50,7 +50,7 @@ main{
                 @include transition;
             }    
             :hover{
-                color:#B8EDF8;
+                color:#FE394F;
             }
             @media (max-width:1024px){
                 font-size: 12px;
@@ -62,7 +62,7 @@ main{
         }
         &.active{
             display: block;
-            background-color:#B8EDF8;
+            background-color:#FE394F;
             width: 100%;
             height: 1000px;;
             text-align: center;
@@ -93,7 +93,7 @@ main{
         right: 80px;
         height: 60%;
         width: 2px;
-        background-color: #B8EDF8;
+        background-color: #FE394F;
 
         @media (max-width:1000px){
             display: block;
@@ -113,7 +113,7 @@ main{
       }
       .burger {
         position: absolute;
-        background: #B8EDF8;
+        background: #FE394F;
         width: 100%;
         height: 3px;
         top: 50%;
@@ -122,7 +122,7 @@ main{
       }
       .burger::before {
         position: absolute;
-        background: #B8EDF8;
+        background: #FE394F;
         width: 100%;
         height: 3px;
         top: 8px;
@@ -131,7 +131,7 @@ main{
       }
       .burger::after {
         position: absolute;
-        background: #B8EDF8;
+        background: #FE394F;
         width: 100%;
         height: 3px;
         bottom: 8px;
@@ -278,7 +278,7 @@ main{
                 position: absolute;
                 left: 50%;
                 transform: translateX(-50%);
-                background-color: #B8EDF8;
+                background-color: #FE394F;
                 margin:15px 0;
             }
             h1{
@@ -373,7 +373,7 @@ main{
             img{
                 height:auto;
                 width: 100%;
-                box-shadow: 30px 30px #B8EDF8;
+                box-shadow: 30px 30px #FE394F;
             }
         }
         .right-text{
@@ -462,7 +462,7 @@ footer{
     .fourth{
         padding: 35px 0;
         @include header;
-        background-color: #B8EDF8;
+        background-color: #FE394F;
         position: relative;
     }
     .footer{
@@ -497,16 +497,16 @@ footer{
     }
 }
 .first .break-line{
-    background-color: #B8EDF8;
+    background-color: #FE394F;
 }
 .third .break-line{
-    background-color: #B8EDF8;
+    background-color: #FE394F;
 }
 .second .break-line{
-    background-color: #B8EDF8;
+    background-color: #FE394F;
 }
 .fourth .break-line{
-    background-color: #B8EDF8;
+    background-color: #FE394F;
 }
 .second{
     .image-container{
