@@ -349,10 +349,6 @@ main .main-banner {
         font-size: 24px;
         font-family: 'BPG Nino Mkhedruli Book';
         color: white; }
-      .third article .right-text .ggas {
-        text-align: center;
-        font-size: 48px;
-        color: #FE394F; }
       .third article .right-text h6 {
         font-size: 13px;
         font-family: 'BPG Nino Mkhedruli Book';
@@ -372,7 +368,15 @@ main .main-banner {
           .third article .right-text h2 {
             font-size: 14px; } }
     .third article .center-div {
-      width: 100%; }
+      width: 100%;
+      margin: 0; }
+      .third article .center-div .ggas {
+        text-align: center;
+        font-size: 48px;
+        color: #FE394F; }
+        @media (max-width: 758px) {
+          .third article .center-div .ggas {
+            font-size: 28px; } }
 
 @media (max-width: 768px) {
   .imeno-third article {
